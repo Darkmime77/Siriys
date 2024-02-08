@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="input">>>></label>
+    <input type="checkbox" id="input">
+    <div class="hidden_panel">
+        Содержание блока
+    </div>
+</body>
+<style>
+    #input {
+        display: none;
+    }
+
+    .hidden_panel {
+        visibility: hidden;
+    }
+
+    #input:checked + .hidden_panel {
+        visibility: visible;
+    }
+</style>
+
+</html>

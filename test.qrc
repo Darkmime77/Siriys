@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="strela">
+    <file>Exclude.png</file>
+  </qresource>
+</RCC>
